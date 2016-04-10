@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.song.demo</groupId>
   <artifactId>parent</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>parent Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -24,4 +24,7 @@
   <build>
     <finalName>parent</finalName>
   </build>
+  <modules>
+  	<module>demo-back</module>
+  </modules>
 </project>
