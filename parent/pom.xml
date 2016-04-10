@@ -23,8 +23,16 @@
   </dependencies>
   <build>
     <finalName>parent</finalName>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.tomcat.maven</groupId>
+  			<artifactId>tomcat7-maven-plugin</artifactId>
+  			<version>2.2</version>
+  		</plugin>
+  	</plugins>
   </build>
   <modules>
   	<module>demo-back</module>
   </modules>
+ 
 </project>

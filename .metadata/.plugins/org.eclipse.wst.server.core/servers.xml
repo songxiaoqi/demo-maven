@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="1" auto-publish-time="1" configuration-id="/Servers/back-config" deployDir="wtpwebapps" hostname="localhost" id="back" name="back" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="300" stop-timeout="300" testEnvironment="true" timestamp="2">
+    <list key="modules" value0="demo-back::org.eclipse.jst.j2ee.server:demo-back::jst.web::2.3"/>
+  </server>
+</servers>
